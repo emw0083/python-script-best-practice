@@ -1,5 +1,7 @@
 #! /usr/bin/env python3
 
+#Exercise 3
+
 "A module for getting the smallest prime factor of an integer."
 
 
@@ -31,6 +33,7 @@ def get_smallest_prime_factor(n):
     >>> get_smallest_prime_factor(9)
     3
     """
+
     for i in range(2, n):
         if (n % i) == 0:
             return i
@@ -49,3 +52,6 @@ if __name__ == '__main__':
         print(n)
     else:
         print(smallest_prime_factor)
+
+
+#------------------------------------------------------
